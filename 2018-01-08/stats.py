@@ -1,7 +1,7 @@
 """
 Module/file docstring
 Run:
-    python -m doctest -v stats.py
+    python -m doctest -v first.py
 """
 
 
