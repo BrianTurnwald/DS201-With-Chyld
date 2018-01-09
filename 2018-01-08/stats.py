@@ -1,7 +1,7 @@
 """
 Module/file docstring
 Run:
-    python -m doctest -v first.py
+    python -m doctest -v stats.py
 """
 
 
@@ -36,6 +36,9 @@ def median2(numbers): #better
     """Computes the median of a list of numbers.
     arguments: list of numbers
     return: the median (int for odd len list, float for even len list)
+    
+    The ">>>" below will actually run the test when runing the file
+    with doctest: python -m doctest -v stats.py
 
     >>> median([2,1,6])
     2
